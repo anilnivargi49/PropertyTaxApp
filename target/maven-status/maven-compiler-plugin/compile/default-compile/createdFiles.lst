@@ -1,0 +1,17 @@
+com\propertytax\main\entity\PropertyZone.class
+com\propertytax\main\repository\ZoneRepository.class
+com\propertytax\main\dto\PropertyTaxMasterDto.class
+com\propertytax\main\repository\PropertyDescriptionRepository.class
+com\propertytax\main\PropertyTaxApplication.class
+com\propertytax\main\entity\PropertyTax.class
+com\propertytax\main\repository\PropertyTaxMasterRepository.class
+com\propertytax\main\service\PropertyTaxService.class
+com\propertytax\main\controller\HomeController.class
+com\propertytax\main\dto\PropertyZoneDto.class
+com\propertytax\main\entity\PropertyDescription.class
+com\propertytax\main\entity\PropertyTaxMaster.class
+com\propertytax\main\service\PropertyTaxServiceImpl.class
+com\propertytax\main\dto\PropertyDescriptionDto.class
+com\propertytax\main\repository\PropertyTaxRepository.class
+com\propertytax\main\dto\ReportDto.class
+com\propertytax\main\dto\PropertyTaxDto.class

@@ -1,0 +1,33 @@
+create table property_tax (
+id INT(11) NOT NULL AUTO_INCREMENT,
+assessment_year VARCHAR(4) NOT NULL,
+owner_name VARCHAR(30) NOT NULL,
+email VARCHAR(30) NOT NULL,
+property_address VARCHAR(100) NOT NULL,
+zonal_classification VARCHAR(10) NOT NULL,
+property_description VARCHAR(80) NOT NULL,
+status VARCHAR(15) NOT NULL,
+constructed_year VARCHAR(4) NOT NULL,
+area INT(10) NOT NULL,
+tax DECIMAL(10,2) NOT NULL,
+PRIMARY KEY(id)
+);
+
+create table property_tax_master(
+id INT(10) NOT NULL auto_increment,
+description_id INT(10) NOT NULL,
+zone_id INT(10) NOT NULL,
+unit_area_value NUMERIC(3,2),
+primary key(id)
+); 
+CREATE TABLE property_description(
+id int(10) NOT NULL auto_increment,
+description_name VARCHAR(80) NOT NULL,
+primary key(id)
+);
+CREATE TABLE zone(
+id int(10) NOT NULL auto_increment,
+zone VARCHAR(15) NOT NULL,
+primary key(id)
+);
+
